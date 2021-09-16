@@ -1,0 +1,4 @@
+{
+    "mongoURI":"mongodb+srv://devUser:ReU6A53d5eraPRb0@cluster0.2a3zk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "jwtSecret":"BITconnect"
+}
