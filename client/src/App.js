@@ -26,7 +26,7 @@ const App = () => {
       if (!localStorage.token) store.dispatch({ type: LOGOUT });
     });
   }, []);
-
+  
   return (
     <Provider store={store}>
       <Router>

@@ -12,6 +12,7 @@ module.exports = function (req, res, next) {
 
   // Verify token
   try {
+    //function call
     jwt.verify(token, config.get('jwtSecret'), (error, decoded) => {
       if (error) {
         return res.status(401).json({ msg: 'Token is not valid' });
